@@ -1,62 +1,65 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Conferance website
+![screencapture-gedewon-github-io-ConferencePage-C1-2022-04-13-23_56_41](https://user-images.githubusercontent.com/56429354/163269047-1bf017a6-3b97-4c7f-8200-8f0fea0a2734.png)
 
-> Description the project.
+> simple static website conferance website
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScripts
+- GitFlow
+- Linters
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://gedewon.github.io/ConferencePage_C1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+ 1. clone repo either through ssh / https 
+ 
+ > ssh
+ ```sh
+  git clone git@github.com:Gedewon/ConferencePage_C1.git
+ ```
 
 
+> https
+ ```sh
+  git clone https://github.com/Gedewon/ConferencePage_C1.git
+ ```
+ 
+ 2. the change directory to ConferencePage_C1.git
+ 
+  ```sh
+  cd ConferencePage_C1.git
+  ```
+ 3.install node dependency and open index.html with live server 
+ 
+ ```sh
+  npm i
+ ```
+ 
 
-## Authors
+👤 **Gedewon**
 
-👤 **Author1**
+- GitHub: [Gedewon](https://github.com/Gedewon)
+- LinkedIn: [Gedewon](https://linkedin.com/in/gedewon)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Gedewon/ConferencePage_C1/issues).
 
 ## Show your support
 
@@ -64,10 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design Idea by [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licensed.
