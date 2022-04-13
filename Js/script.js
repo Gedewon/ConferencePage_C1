@@ -86,4 +86,34 @@ window.addEventListener('resize', () => {
   });
 });
   
-console.log('hi mate')
+const morebtn = document.getElementById('more-btn');
+const mobileMenu = document.querySelector('.mobile_menu_button');
+const closeMenu = document.querySelector('#close-menu');
+
+morebtn.addEventListener('click', () => {
+  speakersList.innerHTML = '';
+  speakers.reverse().forEach((speaker) => {
+    const speakerHTML = `<article class="speaker clearfix">
+                                  <img src=${speaker.picture} alt="${speaker.name}"/>
+                                  <div class="desc">
+                                      <p href="#" class="speaker-name">${speaker.name}</p>
+                                      <p href="#" class="speaker-tag-name">${speaker.tag_name}</p>
+                                      <p href="#" class="speaker-job">${speaker.workplace}</p>
+                                      <p class="speaker-desc">${speaker.description}</p>
+      
+                                  </div>
+                          </article>`;
+    speakersList.insertAdjacentHTML('afterbegin', speakerHTML);
+    document.getElementById('more-btn').classList.add('hide');
+  });
+});
+
+mobileMenu.addEventListener('click', () => {
+  document.getElementById('toggle-menu').classList.toggle('toggle-menu');
+  document.querySelector('html').style.overflowY = 'hidden';
+});
+
+closeMenu.addEventListener('click', () => {
+  document.getElementById('toggle-menu').classList.toggle('toggle-menu');
+  document.querySelector('html').style.overflowY = 'auto';
+});
