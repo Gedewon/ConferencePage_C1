@@ -219,7 +219,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 8px;
+    margin: 17px;
     padding: 16px 0;
     height: auto;
     overflow: auto;
@@ -228,7 +228,7 @@
 
   .program-info-wraper section .program-card .program-icon {
     float: left;
-    margin: 0;
+    margin-left: 37px;
     padding-left: 10px;
   }
 
@@ -263,6 +263,7 @@
     border: 0;
     padding: 10px 18px;
     margin-top: 25px;
+    height: 79px;
   }
 
   .b-bottom {
@@ -763,6 +764,7 @@
   .program-info-wraper section .program-card .program-icon {
     float: left;
     margin: 0;
+    margin-top: 9px;
     padding-left: 10px;
   }
 
